@@ -42,7 +42,7 @@ export const CardContainer = Styled.div`
     gap: 32px;
     justify-content: center;
     align-items: start;
-    @media screen and (max-width: 832px){
+    @media screen and (max-width: 950px){
         flex-direction: column;
     }
 `
@@ -60,7 +60,7 @@ export const Card = Styled.div`
     .container{
         
     }
-    @media screen and (max-width: 832px){
+    @media screen and (max-width: 950px){
         width: auto;
     }
 `

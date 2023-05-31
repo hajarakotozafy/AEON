@@ -15,11 +15,12 @@ export const HeroContainer = Styled.div`
         @media screen and (max-width: 650px){
             width: 780px;
         }
+        @media screen and (max-width: 500px){
+            width: 100%;
+        }
     }
     @media screen and (max-width: 500px){
-        padding: 80px 16px;
-        // display: flex;
-        // flex-direction: column;
+        padding: 80px 16px 0 16px;
     }
 `
 
@@ -30,8 +31,11 @@ export const HeroLeft = Styled.div`
         padding: 0 24px;
         border-radius: 8px;
     }
+    
     @media screen and (max-width: 500px){
         padding: 8px;
+        background-color: transparent;
+        margin: 240px 0 0 0;
     }
 `
 
