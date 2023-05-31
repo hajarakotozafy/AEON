@@ -180,7 +180,7 @@ export const Form = Styled.div`
             outline: none;
             height: 220px;
             font-size: 18px;
-            color: grey;
+            font-weight: 500;
             font-family: "Manrope";
             padding: 4px 16px;
             // border: 1px solid red;

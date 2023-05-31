@@ -141,10 +141,10 @@ const DevisSection: React.FC = () => {
                 <Form>
                     <CardTitle>SOUMETTRE VOTRE FORMULAIRE</CardTitle>
                     <InputCont>
-                        <input className="budget" placeholder="Mon budget..."/>
-                        <input className="mail" placeholder="Adresse mail..."/>
+                        <input type="text" className="budget" placeholder="Mon budget..."/>
+                        <input type="mail" className="mail" placeholder="Adresse mail..."/>
                     </InputCont>
-                    <textarea className="descri">Résumé de votre projet...</textarea>
+                    <textarea className="descri" placeholder="Résumé de votre projet..."></textarea>
                 </Form>
                 <BtnContainer>
                     <button>Envoyer</button>
