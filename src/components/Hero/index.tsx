@@ -1,6 +1,6 @@
 import React from 'react';
 import { HeroContainer, HeroLeft, Title, SubTitle, Paragraph } from './Hero.style';
-import Vector from '../../assets/images/Vector.svg';
+import Vector from '../../assets/images/Vector.png';
 
 const Hero: React.FC = () => {
     return(
