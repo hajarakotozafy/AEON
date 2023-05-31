@@ -18,6 +18,8 @@ export const HeroContainer = Styled.div`
     }
     @media screen and (max-width: 500px){
         padding: 80px 16px;
+        // display: flex;
+        // flex-direction: column;
     }
 `
 
