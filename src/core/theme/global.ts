@@ -9,6 +9,8 @@ const GlobalStyle = createGlobalStyle`
     font-size: ${(props:any) => props.theme.size(2) + 2}px;
     font-family: ${(props:any) => props.theme.typography.body};
     background: url(${Back});
+    background-size: cover;
+    backgournd-repeat: no-repeat;
     padding: 0;
     margin: 0;
     box-sizing: border-box;
