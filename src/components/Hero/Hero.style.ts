@@ -59,7 +59,7 @@ export const Paragraph = Styled.p`
     font-size: 16px;
     font-weight: 500;
     max-width: 500px;
-    // text-align: center;
+    text-align: center;
     @media screen and (max-width: 600px){
         font-size: 14px;
     }
