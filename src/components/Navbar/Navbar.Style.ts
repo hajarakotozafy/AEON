@@ -1,4 +1,5 @@
 import Styled from "styled-components";
+import { Link } from "react-router-dom";
 
 export const NavbarItems = Styled.div`
     z-index: 999;
@@ -70,7 +71,8 @@ export const NavbarItems = Styled.div`
     }
 `
 
-export const NavbarLogo = Styled.div`
+export const NavbarLogo = Styled(Link)`
+    text-decoration: none;
     // border: 1px solid red;
     display: flex;
     img{

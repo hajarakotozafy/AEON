@@ -4,6 +4,7 @@ import Vector from '../../assets/images/Vector.png';
 
 const Hero: React.FC = () => {
     return(
+        <>
         <HeroContainer>
             <HeroLeft>
                 <Title>IMPOSSIBLE?</Title>
@@ -24,6 +25,7 @@ et osez l'impossible avec Aeon.
             </HeroLeft>
             <img src={Vector} alt=""/>
         </HeroContainer>
+        </>
     )
 }
 

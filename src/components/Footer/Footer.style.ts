@@ -25,6 +25,10 @@ export const Foot1 = Styled.div`
             height: 80px;
         }
     }
+    a{
+        text-decoration: none;
+        color: #ffffff;
+    }
     .support, .legal{
         h1{
             font-size: 24px

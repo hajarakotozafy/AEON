@@ -9,7 +9,7 @@ const Navbar: React.FC = () => {
     return (
         <>
             <NavbarItems>
-                <NavbarLogo>
+                <NavbarLogo  to="/">
                     <img src={Logo} alt=""/>
                     <div>
                         <p><span>Aeon</span><br/>Marketing design & developpement</p>
