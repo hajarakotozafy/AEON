@@ -56,9 +56,9 @@ const PrivacyPolicyContainer = Styled.div`
         text-align: center;
     }
     width: auto;
-    padding: 80px;
+    padding: 16px 80px;
     @media screen and (max-width: 650px){
-        padding: 80px 32px;
+        padding: 16px 32px;
     }
     // background-color: #E5E5E5;
     display: flex;
