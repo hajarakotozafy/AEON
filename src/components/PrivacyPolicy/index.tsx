@@ -80,6 +80,9 @@ const PrivacyPolicyContainer = Styled.div`
             padding: 0;
             text-align: justify;
         }
+        @media screen and (max-width: 650px){
+            font-size: 14px;
+        }
     }
     &:before{
         position: fixed;
